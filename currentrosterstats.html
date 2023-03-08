@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <!-- Meta data section -->
+    <meta charset="utf-8">
+    <meta name="description" content="Assigment 1: HTML Web Site">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Graydon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- For the favicon on this page -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+    
+    <!-- Google's MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-green.min.css"/>
+
+    <!-- CSS --> 
+    <link rel="stylesheet" href="./css/style3.css"> 
+    <!-- Title -->
+    <title> Vancouver Canucks  </title>
+  </head>
+  <body> 
+   <!-- Title -->
+    <title> Vancouver Canucks Current Roster  </title> 
+    <!-- Header -->
+    <h1 id="my-header"> Current Roster </h1>
+    <br>
+    <!-- Image -->
+    <center> <img src="./images/canucksteam.jpg" width="1200" height="700">
+    <h4> Below are a few players on the Vancouver Canucks roster and their stats this season:</h4>
+    <!-- Table -->
+    <table class="mdl-data-table mdl-js-data-table">
+      <thead>
+        <tr>
+          <th class="mdl-data-table__cell--non-numeric">Name</th>
+          <th class="mdl-data-table__cell--non-numeric">Number</th>
+          <th> Games Played</th>
+          <th class="mdl-data-table__cell--non-numeric">Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Elias Pettersson</td>
+          <td class="mdl-data-table__cell--non-numeric">40</td>
+          <td>61</td>
+          <td class="mdl-data-table__cell--non-numeric">79</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Quinn Hughes</td>
+          <td class="mdl-data-table__cell--non-numeric">43</td>
+          <td>59</td>
+          <td class="mdl-data-table__cell--non-numeric">60</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Andrei Kuzmenko</td>
+          <td class="mdl-data-table__cell--non-numeric">96</td>
+          <td>62</td>
+          <td class="mdl-data-table__cell--non-numeric">56</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Brock Boeser</td>
+          <td class="mdl-data-table__cell--non-numeric">6</td>
+          <td>55</td>
+          <td class="mdl-data-table__cell--non-numeric">41</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <!-- Checkbox -->
+    <h6> Survey: Check this box if you have heard of the Vancouver Canucks Before:</h6>
+    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+      <input type="checkbox" id="switch-1" class="mdl-switch__input" checked>
+      <span class="mdl-switch__label"></span>
+    </label>
+    <!-- JavaScript Alert -->
+    <script>
+      function myButtonClicked() {
+        alert("Thank You!")
+      }
+    </script>
+    <!-- Accent-colored raised button with ripple -->
+    <button onclick="myButtonClicked()"<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+      Submit
+    </button>
+    <!-- Links -->
+    <h5> <a href="https://www.nhl.com/canucks/roster">Link to the full Canucks roster <a/>
+    <br>
+    <br>
+    <a href="https://assign-01-html-website.graydone1.repl.co/">Link back to First Webpage.</a> 
+    <br>
+    <br>
+    <a href="https://assign-01-html-website.graydone1.repl.co/rogersarena.html"> Link to Webpage about Rogers Arena. 
+    </h5>
+    </center> 
+  </body>
+</html> 

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Assigment 1: HTML Web Site">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Graydon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- For the favicon on this page -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+    
+    <!-- Google's MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-blue.min.css"/>
+
+    <!-- CSS --> 
+    <link rel="stylesheet" href="./css/style2.css"> 
+
+    <title> Rogers Arena</title>
+  </head> 
+  <body> 
+    <h1 id="my-header"> Rogers Arena </h1>
+    <!-- Image -->
+    <center> <img src="./images/Rogers Arena.jpg" width="1200" height="700"> 
+    <!-- Main Text-->
+    <h4> Rogers Arena is a multi-purpose arena located in downtown Vancouver and is the home of the Vancouver Canucks. It was opened in 1995 and was formally known as General Motors Place until 2010. It is also the home of the Vancouver Warriors Lacross Team and was previously the home of the Vancouver Grizzlies of the NBA. </h4>
+    <br>
+    <!-- Code for Survey-->
+    <h6> If you have recently attended Rogers Arena, fill out the survey below to send your Feedback!: </h6>
+    <h7> What would you rate Rogers Arena on a scale of 1-10?</h7>
+    <!-- Default Slider -->
+      <input class="mdl-slider mdl-js-slider" type="range"
+        min="1" max="10" value="0" tabindex="0">
+    <br>
+    <br>
+    <h7> Enter any Feedback you may have in the textbox below:</h7>
+    <!-- Simple Textfield -->
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="sample1">
+        <label class="mdl-textfield__label" for="sample1">Enter Feedback Here</label>
+      </div>
+    </form>
+    <!-- Javacript Alert --> 
+    <script>
+      function myButtonClicked() {
+        alert("Thank You!")
+      }
+    </script>
+    <!-- Accent-colored raised button with ripple -->
+    <button onclick="myButtonClicked()"<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+      Submit
+    </button>
+    <!-- Links -->
+      
+    <h5> <a href="https://rogersarena.com/">Link to Rogers Arena official website <a/>
+    <br>
+    <br>
+    <a href="https://assign-01-html-website.graydone1.repl.co/">Link back to First Webpage.</a> 
+    <br>
+    <br>
+    <a href="https://assign-01-html-website.graydone1.repl.co/currentrosterstats.html"> Link to the Vancouver Canuck's roster and stats (third webpage) <a/> 
+    </h5>
+  </center>
+  </body>
+</html> 

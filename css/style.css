@@ -1,0 +1,26 @@
+body{
+  background-color: rgb(50,205,50);
+}
+
+h1{
+  background-color: blue;
+  color: rgb(50,205,50);
+    padding: 40px;
+    text-align: center;
+}
+
+p{
+  color:blue;
+  text-align: center;
+}
+
+
+h4{
+  color:blue;
+  text-align: center;
+}
+
+a{
+  color:blue;
+  text-align: center;
+}
